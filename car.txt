@@ -1,0 +1,146 @@
+{
+  "type": "bubble",
+  "body": {
+    "layout": "vertical",
+    "type": "box",
+    "contents": [
+      {
+        "size": "xl",
+        "text": "${vcard.name}",
+        "type": "text",
+        "weight": "bold"
+      },
+      {
+        "layout": "baseline",
+        "margin": "md",
+        "type": "box",
+        "contents": [
+          {
+            "size": "sm",
+            "type": "icon",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "size": "sm",
+            "type": "icon",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "size": "sm",
+            "type": "icon",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "size": "sm",
+            "type": "icon",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "size": "sm",
+            "type": "icon",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png"
+          },
+          {
+            "color": "#999999",
+            "flex": 0,
+            "margin": "md",
+            "size": "sm",
+            "text": "${vcard.rating}",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "type": "box",
+        "contents": [
+          {
+            "layout": "baseline",
+            "spacing": "sm",
+            "type": "box",
+            "contents": [
+              {
+                "color": "#aaaaaa",
+                "flex": 1,
+                "size": "sm",
+                "text": "Place",
+                "type": "text"
+              },
+              {
+                "color": "#666666",
+                "flex": 5,
+                "size": "sm",
+                "text": "${vcard.place}",
+                "type": "text",
+                "wrap": true
+              }
+            ]
+          },
+          {
+            "layout": "baseline",
+            "spacing": "sm",
+            "type": "box",
+            "contents": [
+              {
+                "color": "#aaaaaa",
+                "flex": 1,
+                "size": "sm",
+                "text": "Time",
+                "type": "text"
+              },
+              {
+                "color": "#666666",
+                "flex": 5,
+                "size": "sm",
+                "text": "${vcard.time}",
+                "type": "text",
+                "wrap": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "flex": 0,
+    "layout": "vertical",
+    "spacing": "sm",
+    "type": "box",
+    "contents": [
+      {
+        "height": "sm",
+        "style": "link",
+        "type": "button",
+        "action": {
+          "label": "CALL",
+          "type": "uri",
+          "uri": "${vcard.tel}"
+        }
+      },
+      {
+        "height": "sm",
+        "style": "link",
+        "type": "button",
+        "action": {
+          "label": "WEBSITE",
+          "type": "uri",
+          "uri": "${vcard.website}"
+        }
+      }
+    ]
+  },
+  "hero": {
+    "aspectMode": "cover",
+    "aspectRatio": "${vcard.image_ratio}",
+    "size": "full",
+    "type": "image",
+    "url": "${vcard.image}",
+    "action": {
+      "type": "uri",
+      "uri": "${vcard.website}"
+    }
+  }
+}
