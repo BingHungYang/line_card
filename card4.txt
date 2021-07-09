@@ -1,0 +1,191 @@
+
+{
+  "altText": "請在手機上查看名片。",
+  "type": "flex",
+  "contents": 
+{
+  "type": "bubble",
+  "size": "giga",
+  "body": {
+    "layout": "horizontal",
+    "paddingAll": "5px",
+    "type": "box",
+    "contents": [
+      {
+        "flex": 528,
+        "layout": "vertical",
+        "type": "box",
+        "contents": [
+          {
+            "aspectRatio": "2008:639",
+            "size": "full",
+            "type": "image",
+            "url": "https://i.imgur.com/ddPWIB8.jpg",
+            "action": {
+              "label": "action",
+              "type": "uri",
+              "uri": "https://https://auo.com/zh-TW?openExternalBrowser=1"
+            },
+            "offsetTop": "70px",
+            "offsetStart": "none",
+            "offsetBottom": "none",
+            "aspectMode": "cover"
+          }
+        ]
+      },
+      {
+        "flex": 624,
+        "layout": "vertical",
+        "margin": "xl",
+        "spacing": "xxl",
+        "type": "box",
+        "contents": [
+          {
+            "layout": "vertical",
+            "margin": "lg",
+            "spacing": "md",
+            "type": "box",
+            "contents": [
+              {
+                "margin": "none",
+                "size": "md",
+                "text": "${vcard.name}",
+                "type": "text",
+                "wrap": true,
+                "weight": "bold"
+              },
+              {
+                "layout": "vertical",
+                "type": "box",
+                "contents": [
+                  {
+                    "size": "xxs",
+                    "text": "${vcard.position}",
+                    "type": "text"
+                  },
+                  {
+                    "size": "xxs",
+                    "text": "先進製造發展處",
+                    "type": "text"
+                  },
+                  {
+                    "size": "xxs",
+                    "text": "先進製造技術部",
+                    "type": "text"
+                  }
+                ],
+                "paddingTop": "none",
+                "offsetTop": "none",
+                "offsetBottom": "none",
+                "offsetStart": "none",
+                "paddingBottom": "xs",
+                "paddingEnd": "none",
+                "paddingAll": "none",
+                "offsetEnd": "none",
+                "cornerRadius": "none",
+                "position": "relative",
+                "flex": 10,
+                "spacing": "none",
+                "margin": "2px"
+              }
+            ]
+          },
+          {
+            "margin": "none",
+            "type": "text",
+            "text": "友達光電股份有限公司\n台中廠",
+            "size": "md",
+            "weight": "bold",
+            "wrap": true,
+            "position": "relative",
+            "offsetTop": "lg",
+            "offsetEnd": "none",
+            "offsetStart": "none",
+            "offsetBottom": "none",
+            "decoration": "none"
+          },
+          {
+            "margin": "lg",
+            "size": "xxs",
+            "text": "臺灣臺中市40763\n 西屯區中部科學園區中科路1號",
+            "type": "text",
+            "action": {
+              "label": "action",
+              "type": "uri",
+              "uri": "https://www.google.com/maps/search/?api=1&query_place_id=ChIJAaZEqCYWaTQRMv6fuIsJEuo&query=%E5%BE%AE%E7%A8%8B%E5%BC%8F%E8%B3%87%E8%A8%8A&openExternalBrowser=1"
+            },
+            "wrap": true
+          },
+          {
+            "margin": "none",
+            "size": "xxs",
+            "type": "text",
+            "wrap": true,
+            "action": {
+              "label": "action",
+              "type": "uri",
+              "uri": "https://www.google.com/maps/search/?api=1&query_place_id=ChIJAaZEqCYWaTQRMv6fuIsJEuo&query=%E5%BE%AE%E7%A8%8B%E5%BC%8F%E8%B3%87%E8%A8%8A&openExternalBrowser=1"
+            },
+            "text": "電話:(04)2460-8800 分機${vcard.ext}"
+          },
+          {
+            "margin": "none",
+            "size": "xxs",
+            "text": "行動:+886 ${vcard.mobile.slice(1)}",
+            "type": "text",
+            "wrap": true,
+            "action": {
+              "label": "action",
+              "type": "uri",
+              "uri": "https://www.google.com/maps/search/?api=1&query_place_id=ChIJAaZEqCYWaTQRMv6fuIsJEuo&query=%E5%BE%AE%E7%A8%8B%E5%BC%8F%E8%B3%87%E8%A8%8A&openExternalBrowser=1"
+            }
+          },
+          {
+            "margin": "none",
+            "size": "xxs",
+            "text": "統一編號:84149738",
+            "type": "text",
+            "wrap": true
+          },
+          {
+            "margin": "none",
+            "size": "xxs",
+            "text": "${vcard.email}",
+            "type": "text",
+            "wrap": true
+          },
+          {
+            "margin": "none",
+            "size": "xxs",
+            "text": "AUO.com",
+            "type": "text",
+            "wrap": true,
+            "offsetBottom": "xs"
+          }
+        ]
+      },
+      {
+        "height": "1px",
+        "layout": "vertical",
+        "offsetStart": "0px",
+        "offsetTop": "0px",
+        "position": "absolute",
+        "type": "box",
+        "width": "1px",
+        "contents": [
+          {
+            "aspectMode": "fit",
+            "aspectRatio": "1:1",
+            "size": "full",
+            "type": "image",
+            "url": "https://i.imgur.com/GclvYFK.png"
+          }
+        ]
+      }
+    ],
+    "offsetTop": "none",
+    "spacing": "none",
+    "margin": "none"
+  }
+}
+}
